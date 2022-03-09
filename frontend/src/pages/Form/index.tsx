@@ -3,8 +3,7 @@ import './styles.css';
 function Form() {
   const movie = {
     id: 1,
-    image:
-      "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+    image:"https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
     title: "The Witcher",
     count: 2,
     score: 4.5,
@@ -16,7 +15,7 @@ function Form() {
       <div className="dsmovie-card-bottom-container">
         <h3>{movie.title}</h3>
         <form className="dsmovie-form">
-          <div className="form-group dsmovie-form-group">
+        <div className="form-group dsmovie-form-group">
             <label htmlFor="email">Informe seu email</label>
             <input type="email" className="form-control" id="email" />
           </div>
